@@ -15,3 +15,11 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.db-sidebar {
+    /* border: 1px solid rebeccapurple; */
+
+    display: grid;
+    margin-top: 32px;
+    gap: 8px;
+}
