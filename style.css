@@ -53,3 +53,14 @@ body {
     display: grid;
     grid-template-columns: 20px auto 50px 50px 50px;
 }
+
+/* Grid layout */
+.contents {
+    display: grid;
+
+    grid-template: auto auto / auto auto;
+}
+
+.projects {
+    grid-area: 1 / 1 / 3 / 1;
+}
