@@ -75,7 +75,7 @@ body {
     border-radius: 16px;
     border: 1px solid var(--bg-clr3);
     padding-left: 12px;
-    height: 24px;
+    height: 18px;
     background-color: var(--bg-clr3);
 }
 
@@ -84,11 +84,11 @@ body {
 }
 
 .user-pfp.row1 {
-    height: 32px;
+    height: 24px;
 }
 
 .user-pfp.row2 {
-    height: 42px;
+    height: 36px;
 }
 
 .icon-secondary-clr {
@@ -160,7 +160,8 @@ body {
     background-color: var(--bg-clr3);
     display: grid;
     grid-template: auto auto / auto auto;
-    
+
+    padding: 16px;
 }
 
 .projects {
@@ -168,9 +169,12 @@ body {
 }
 
 .project-contents {
-    display: grid;
+    /* margin: 16px; */
+    margin-right: 16px;
 
+    display: grid;
     grid-template: auto auto auto / auto auto ;
+    gap: 16px;
 }
 
 /* Project card template */
