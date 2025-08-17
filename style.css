@@ -10,6 +10,10 @@ a {
     color: var(--font-1-clr);
 }
 
+svg {
+    fill: white;
+}
+
 :root {
     --bg-clr: black;
     --bg-clr2: white;
@@ -29,6 +33,7 @@ body {
 /* Sidebar */
 .main-logo {
     padding: 12px;
+    font-size: 22px;
     margin-right: 22px;
     color: white;
 }
@@ -39,6 +44,9 @@ body {
 }
 
 .db-sidebar {
+    font-size: 12px;
+    font-weight: 600;
+
     margin-top: 12px;
     margin-left: 6px;
     padding: 14px;
@@ -165,8 +173,33 @@ body {
     grid-template: auto auto auto / auto auto ;
 }
 
-svg {
-    fill: white;
+/* Project card template */
+
+.project-card {
+    background-color: var(--bg-clr2);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.project-name {
+    font-size: 16px;
+}
+
+.project-desc {
+    font-size: 12px;
+}
+
+
+.project-icons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: flex-end;
+    gap: 12px;
+    margin: 3px;
+}
+.project-icons svg {
+    fill: black;
+    height: 20px;
 }
 
 
