@@ -51,6 +51,10 @@ body {
 
 
 /* Header */
+.header {
+    margin: 12px 24px;
+}
+
 .header-grp1 {
     border: 1px solid rebeccapurple;
 
