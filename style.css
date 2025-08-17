@@ -49,4 +49,7 @@ body {
 
 .header-grp2 {
     border: 1px solid red;
+
+    display: grid;
+    grid-template-columns: 20px auto 50px 50px 50px;
 }
