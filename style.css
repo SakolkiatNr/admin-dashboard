@@ -12,6 +12,9 @@ a {
 
 :root {
     --bg-clr: black;
+    --bg-clr2: white;
+    --bg-clr3: lightgrey;
+
     --border-clr: grey;
     --font-1-clr: red;
     --font-2-clr: black;
@@ -19,7 +22,6 @@ a {
 
 body {
     display: flex;
-
     width: 100vw;
     height: 100vh;
 
@@ -53,15 +55,20 @@ body {
 
 /* Header */
 .header {
-    margin: 12px 24px;
+    /* margin: 12px 24px; */
+    background-color: var(--bg-clr2);
+    padding: 12px 24px;
+    margin-bottom: 3px;
     height: auto;
+
 }
 
 .search-bar {
     border-radius: 16px;
-    border: 1px solid var(--border-clr);
+    border: 1px solid var(--bg-clr3);
     padding-left: 12px;
     height: 24px;
+    background-color: var(--bg-clr3);
 }
 
 .user-pfp {
@@ -93,7 +100,7 @@ body {
 .search-section {
     align-items: center;
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 35px auto;
 }
 
 .user-section {
@@ -126,6 +133,10 @@ body {
     justify-content: flex-end;
 }
 
+.greet-user .user-name {
+    font-weight: bold;
+}
+
 .buttons button{
     background-color: var(--bg-clr);
     color: var(--font-1-clr);
@@ -134,13 +145,13 @@ body {
     height: 30px;
     border-radius: 22px;
     border: none;
-
 }
 
 /* Grid layout */
 .contents {
+    background-color: var(--bg-clr3);
     display: grid;
-    grid-template: auto auto / auto auto;
+    grid-template: auto auto auto / auto auto;
     
 }
 
