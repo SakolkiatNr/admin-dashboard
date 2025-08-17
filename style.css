@@ -41,6 +41,10 @@ body {
 /* Header */
 .header-grp1 {
     border: 1px solid rebeccapurple;
+
+    display: grid;
+    grid-template-columns: 20px auto 20px 20px auto;
+
 }
 
 .header-grp2 {
