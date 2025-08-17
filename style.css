@@ -11,6 +11,8 @@ a {
 
 :root {
     --bg-clr: grey;
+    --font-1-clr: white;
+    --font-2-clr: black;
 }
 
 body {
@@ -21,16 +23,24 @@ body {
 
 }
 /* Sidebar */
+.main-logo {
+    padding: 12px;
+    margin-right: 22px;
+    color: white;
+}
+
+
 .sidebar {
     background-color: var(--bg-clr);
 }
+
 .db-sidebar {
-    /* border: 1px solid rebeccapurple; */
+    margin-top: 12px;
+    padding: 12px;
 
     display: grid;
     grid-template-columns: 20px 50px;
-    margin-top: 32px;
-    gap: 8px;
+    gap: 12px;
 }
 
 .main-content {
