@@ -70,3 +70,11 @@ body {
 
     grid-template: auto auto auto / auto auto ;
 }
+
+svg {
+    fill: white;
+}
+
+.icon-secondary-clr {
+    fill: black;
+}
