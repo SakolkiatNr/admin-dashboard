@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: sans-serif, helvetica, monospace, system-ui;
 }
+a {
+    text-decoration: none;
+}
 
 :root {
 
@@ -14,7 +17,9 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
+
 }
+
 
 .db-sidebar {
     /* border: 1px solid rebeccapurple; */
@@ -22,4 +27,5 @@ body {
     display: grid;
     margin-top: 32px;
     gap: 8px;
+
 }
