@@ -26,8 +26,8 @@ svg {
 
 body {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw;
+    height: 100vh; */
 
 }
 /* Sidebar */
@@ -236,5 +236,22 @@ body {
     margin: 6px 0px;
 }
 
+/* Trending section */
+.trending-obj {
+    display: flex;
+}
 
+.trend-topics {
+    height: 50px;
+}
+
+.trend-details {
+    margin-left: 12px;
+    align-content: center;
+    font-size: 14px;
+}
+
+.trending-contents {
+    gap: 12px;
+}
 
