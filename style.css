@@ -12,7 +12,7 @@ a {
 
 :root {
     --bg-clr: black;
-    --font-1-clr: white;
+    --font-1-clr: red;
     --font-2-clr: black;
 }
 
@@ -53,18 +53,26 @@ body {
 /* Header */
 .header {
     margin: 12px 24px;
+    height: auto;
+}
+
+.header-icon {
+    width: auto;
 }
 
 .header-grp1 {
     border: 1px solid rebeccapurple;
+    height: 30px;
+    box-sizing: border-box;
 
     display: grid;
-    grid-template-columns: 20px auto 20px 20px auto;
-
+    grid-template-columns: 24px auto 24px 20px auto;
+    gap: 12px;
 }
 
 .header-grp2 {
     border: 1px solid red;
+    height: 30px;
 
     display: grid;
     grid-template-columns: 20px auto 50px 50px 50px;
@@ -93,4 +101,8 @@ svg {
 
 .icon-secondary-clr {
     fill: black;
+}
+
+.user-pfp {
+    height: 30px;
 }
