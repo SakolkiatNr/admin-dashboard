@@ -65,18 +65,26 @@ body {
 }
 
 .user-pfp {
-    height: 36px;
     border-radius: 100px;
+}
+
+.user-pfp.row1 {
+    height: 32px;
+}
+
+.user-pfp.row2 {
+    height: 42px;
 }
 
 .icon-secondary-clr {
     fill: black;
-    height: 30px;
+    height: 24px;
 }
 
 .header-grp1 {
+    margin-bottom: 12px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, auto);
     gap: 30px;
 
     font-weight: 800;
@@ -98,18 +106,42 @@ body {
 
 
 .header-grp2 {
-    border: 1px solid red;
-    height: 30px;
+    height: auto;
 
     display: grid;
-    grid-template-columns: 20px auto 50px 50px 50px;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 50px auto;
+    align-items: center;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.buttons button{
+    background-color: var(--bg-clr);
+    color: var(--font-1-clr);
+    
+    width: 90px;
+    height: 30px;
+    border-radius: 22px;
+    border: none;
+
 }
 
 /* Grid layout */
 .contents {
     display: grid;
-
     grid-template: auto auto / auto auto;
+    
 }
 
 .projects {
