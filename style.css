@@ -151,7 +151,7 @@ body {
 .contents {
     background-color: var(--bg-clr3);
     display: grid;
-    grid-template: auto auto auto / auto auto;
+    grid-template: auto auto / auto auto;
     
 }
 
