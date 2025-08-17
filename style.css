@@ -183,7 +183,15 @@ body {
     background-color: var(--bg-clr2);
     border-radius: 6px;
     padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 6px;
 }
+
+
 
 .project-name {
     font-size: 16px;
