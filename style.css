@@ -12,6 +12,7 @@ a {
 
 :root {
     --bg-clr: black;
+    --border-clr: grey;
     --font-1-clr: red;
     --font-2-clr: black;
 }
@@ -57,17 +58,28 @@ body {
 }
 
 .header-icon {
-    width: auto;
 }
 
 .header-grp1 {
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     height: 30px;
     box-sizing: border-box;
+    align-items: center;
 
     display: grid;
     grid-template-columns: 24px auto 24px 20px auto;
     gap: 12px;
+
+}
+
+.search-bar {
+    border-radius: 16px;
+    border: 1px solid var(--border-clr);
+    padding-left: 12px;
+    height: 25px;
+
+    max-width: 250px;
+
 }
 
 .header-grp2 {
