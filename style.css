@@ -7,10 +7,11 @@
 }
 a {
     text-decoration: none;
+    color: var(--font-1-clr);
 }
 
 :root {
-    --bg-clr: grey;
+    --bg-clr: black;
     --font-1-clr: white;
     --font-2-clr: black;
 }
@@ -36,7 +37,8 @@ body {
 
 .db-sidebar {
     margin-top: 12px;
-    padding: 12px;
+    margin-left: 6px;
+    padding: 14px;
 
     display: grid;
     grid-template-columns: 20px 50px;
