@@ -25,6 +25,7 @@ body {
     /* border: 1px solid rebeccapurple; */
 
     display: grid;
+    grid-template-columns: 20px 50px;
     margin-top: 32px;
     gap: 8px;
 
